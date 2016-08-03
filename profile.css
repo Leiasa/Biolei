@@ -1,0 +1,127 @@
+    /* Global styles */
+
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+@import url('http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic');
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+.navbar-inverse .navbar-brand,.navbar-inverse .navbar-brand:hover {
+color: #FFF;
+font-size: 35px;
+letter-spacing: 5px;
+font-weight: 900;
+background-color:rgba(20, 152, 152, 1);
+padding-bottom: 60px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+border-color: rgba(16, 16, 16, 0);
+}
+.navbar-inverse {
+border-color: rgba(16, 16, 16, 0);
+}
+.navbar-fixed-top {
+top: 0;
+border-width: 0 0 0px;
+}
+.set-links {
+    padding: 15px 20px 10px 20px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color:#fff;
+    font-weight:900;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    color:rgba(20, 152, 152, 1);
+}
+.active-menu-item {
+    color:rgba(20, 152, 152, 1)!important;
+}
+.navbar-brand small {
+    font-size:12px;
+    font-weight:normal;
+    letter-spacing:1px;
+}
+#firstcard{
+     margin-top: 50px;
+}
+
+#editbtn{
+    background: teal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th,
+b,
+strong {
+    font-weight: 700;
+}
+
+.lead,
+.panel-heading {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Colorgraph styles */
+
+.colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #000000;
+  border-radius: 5px;
+  
+}
+
+.colorgraph-header {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 3px;
+    z-index: 100;
+}
+
+/* Page styles */
+
+body {
+    padding-top: 70px;
+    background:teal; 
+        
+    background-attachment: fixed;
+}
+
+.profile-panel, .academic-panel, .achievements-panel, .projects-panel {
+
+}
+
+.user-image {
+    border: 8px solid #eee;
+}
+
+.user-info-box {
+    padding-left: 100px;
+}
+
+
+/* Media queries */
+
+@media (max-width:480px) {
+    .btn-edit {
+        margin-top: 8px;
+    }
+    
+    .user-info-box {
+        padding-left: 15px;
+    }
+}

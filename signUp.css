@@ -1,0 +1,177 @@
+body {
+    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.navbar-inverse .navbar-brand,.navbar-inverse .navbar-brand:hover {
+color: #FFF;
+font-size: 35px;
+letter-spacing: 5px;
+font-weight: 900;
+background-color:rgba(20, 152, 152, 1);
+padding-bottom: 60px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+border-color: rgba(16, 16, 16, 0);
+}
+.navbar-inverse {
+border-color: rgba(16, 16, 16, 0);
+}
+.navbar-fixed-top {
+top: 0;
+border-width: 0 0 0px;
+}
+.set-links {
+    padding: 15px 20px 10px 20px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color:#fff;
+    font-weight:900;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    color:rgba(20, 152, 152, 1);
+}
+.active-menu-item {
+    color:rgba(20, 152, 152, 1)!important;
+}
+.navbar-brand small {
+    font-size:12px;
+    font-weight:normal;
+    letter-spacing:1px;
+}
+e
+bs-example-navbar-collapse-1 ul li a{
+    margin-left: 100px;
+    padding: 100px;
+}
+body {
+    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+bs-example-navbar-collapse-1 ul li a{
+    margin-left: 100px;
+    padding: 100px;
+}
+
+.header-image {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: "dna-biology1.jpg" no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+* {
+box-sizing: border-box;
+}
+
+*:focus {
+	outline: none;
+}
+body {
+font-family: Arial;
+background-color: teal;
+padding: 50px;
+}
+
+.login {
+margin: 20px auto;
+width: 400px;
+}
+.login-screen {
+background-color: #FFF;
+padding: 20px;
+border-radius: 5px
+}
+
+.app-title {
+text-align: center;
+color: #777;
+}
+
+.login-form {
+text-align: center;
+}
+.control-group {
+margin-bottom: 10px;
+}
+
+input {
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 250px;
+transition: border .5s;
+}
+
+input:focus {
+border: 2px solid teal;
+box-shadow: none;
+}
+
+.btn {
+  border: 2px solid transparent;
+  background: teal;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+.login-link {
+  font-size: 12px;
+  color: #444;
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+
+.reveal-if-active {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  margin-left: 200px;
+  
+
+}
+
+input[type="radio"]:checked ~ .reveal-if-active{
+  opacity: 1;
+  max-height: 100px; /* little bit of a magic number :( */
+  overflow: visible;
+  margin-top: -50px;
+ 
+}
+
+#radiotext{
+  margin-right: 0px;
+  margin-left: -50px;
+  margin-bottom: 50px;
+}
+
+#login-name{
+  margin-top: 200px;
+  margin-left: -90px;
+}
+
+
+
+
